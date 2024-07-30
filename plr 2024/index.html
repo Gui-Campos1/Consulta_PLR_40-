@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Consulta de PLR</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Adiantamento (40%) PLR 2024</h1>
+        <div class="form-container">
+            <form>
+                <label for="valorInputado">Insira o seu salário:</label>
+                <input type="text" id="valorInputado" placeholder="Digite o valor">
+
+                <label for="mesesTrabalhados">Número de meses trabalhados:</label>
+                <input type="number" id="mesesTrabalhados" placeholder="Digite o número de meses" min="1" max="12">
+
+                <button type="button" onclick="calcularValor()">Calcular</button>
+            </form>
+        </div>
+        <p id="Adiantamento"></p>
+        <a href="./Regras.png" target="_blank" class="consultar-regras">Consultar Regras</a>
+        <!-- Mensagem adicional -->
+        <p class="mensagem-rh">Qualquer dúvida, favor procurar o RH da fábrica.</p>
+    </div>
+    <script src="./cod.js"></script>
+</body>
+</html>
